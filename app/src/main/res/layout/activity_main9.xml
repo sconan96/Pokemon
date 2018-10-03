@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main9Activity">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/subtitle0009"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="거북왕"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:layout_marginBottom="25dp" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/blastoise"
+                android:layout_marginBottom="30dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoisenum_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="도감번호"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoisetype_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="타입"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoisecategory_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="분류"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoiseheight_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="키"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoiseweight_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="몸무게"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoiseability_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="25dp"
+                android:text="특성"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoisehealthpoint_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="HP"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoiseattack_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="공격"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoisedefense_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="방어"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoisespecialattack_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="특공"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoisespecialdefense_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="특방"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoisespeed_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="스피드"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoiseaverage_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="평균"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoisetotal_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="종합값"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoisecatchrate_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="포획률"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/blastoiselevelxp_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="45dp"
+                android:text="Lv 100 경험치량"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/blastoiseinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="정보"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/blastoiseshow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:text="Show"
+                android:onClick="showblastoise"/>
+
+            <Button
+                android:id="@+id/blastoisebackbt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

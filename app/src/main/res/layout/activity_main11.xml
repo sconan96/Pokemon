@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main11Activity">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/subtitle0011"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="단데기"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:layout_marginBottom="25dp" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/metapod"
+                android:layout_marginBottom="30dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodnum_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="도감번호"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodtype_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="타입"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodcategory_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="분류"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodheight_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="키"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodweight_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="몸무게"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodability_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="25dp"
+                android:text="특성"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodhealthpoint_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="HP"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodattack_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="공격"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapoddefense_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="방어"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodspecialattack_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="특공"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodspecialdefense_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="특방"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodspeed_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="스피드"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodaverage_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="평균"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodtotal_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="종합값"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodcatchrate_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="포획률"
+                android:textSize="16dp"/>
+
+            <CheckBox
+                android:id="@+id/metapodlevelxp_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="45dp"
+                android:text="Lv 100 경험치량"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/metapodinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="정보"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/metapodshow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:text="Show"
+                android:onClick="showmetapod"/>
+
+            <Button
+                android:id="@+id/metapodbackbt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -26,5 +26,105 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        ImageButton toivysaur = (ImageButton) findViewById(R.id.Ivysaur002);
+        toivysaur.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
+        ImageButton tovenusaur = (ImageButton) findViewById(R.id.Venusaur003);
+        tovenusaur.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
+        ImageButton tocharmander = (ImageButton) findViewById(R.id.Charmander004);
+        tocharmander.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
+        ImageButton tocharmeleon = (ImageButton) findViewById(R.id.Charmeleon005);
+        tocharmeleon.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
+        ImageButton tocharizard = (ImageButton) findViewById(R.id.Charizard006);
+        tocharizard.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
+        ImageButton tosquirtle = (ImageButton) findViewById(R.id.Squirtle007);
+        tosquirtle.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
+        ImageButton towartortle = (ImageButton) findViewById(R.id.Wartortle008);
+        towartortle.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
+        ImageButton toblastoise = (ImageButton) findViewById(R.id.Blastoise009);
+        toblastoise.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
+        ImageButton tocaterpie = (ImageButton) findViewById(R.id.Caterpie010);
+        tocaterpie.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
+        ImageButton tometapod = (ImageButton) findViewById(R.id.Metapod011);
+        tometapod.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
+        ImageButton tobutterfree = (ImageButton) findViewById(R.id.Butterfree012);
+        tobutterfree.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
     }
 }

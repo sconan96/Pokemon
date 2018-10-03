@@ -18,7 +18,7 @@ public class Main1Activity extends AppCompatActivity {
     }
 
     String bulbasaurnumber = "0001";
-    String bulbasaurtype = "풀타입";
+    String bulbasaurtype = "풀 / 독";
     String bulbasaurcategory = "씨앗포켓몬";
     double bulbasaurheight = 0.7;
     double bulbasaurweight = 6.9;
@@ -29,7 +29,7 @@ public class Main1Activity extends AppCompatActivity {
     int bulbasaurspecialattack = 65;
     int bulbasaurspecialdefense = 65;
     int bulbasaurspeed = 45;
-    double bulbasauraverage = 53;
+    double bulbasauraverage = 53.00;
     int bulbasaurtotal = 318;
     int bulbasaurcatchrate = 45;
     int bulbasaurlevelxp = 1059860;
