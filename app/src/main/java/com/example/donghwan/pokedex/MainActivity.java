@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton toivysaur = (ImageButton) findViewById(R.id.Ivysaur002);
         toivysaur.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                Intent intent = new Intent(v.getContext(), Main2Activity.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton tovenusaur = (ImageButton) findViewById(R.id.Venusaur003);
         tovenusaur.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                Intent intent = new Intent(v.getContext(), Main3Activity.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton tocharmander = (ImageButton) findViewById(R.id.Charmander004);
         tocharmander.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                Intent intent = new Intent(v.getContext(), Main4Activity.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton tocharmeleon = (ImageButton) findViewById(R.id.Charmeleon005);
         tocharmeleon.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                Intent intent = new Intent(v.getContext(), Main5Activity.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton tocharizard = (ImageButton) findViewById(R.id.Charizard006);
         tocharizard.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                Intent intent = new Intent(v.getContext(), Main6Activity.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton tosquirtle = (ImageButton) findViewById(R.id.Squirtle007);
         tosquirtle.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                Intent intent = new Intent(v.getContext(), Main7Activity.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton towartortle = (ImageButton) findViewById(R.id.Wartortle008);
         towartortle.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                Intent intent = new Intent(v.getContext(), Main8Activity.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton toblastoise = (ImageButton) findViewById(R.id.Blastoise009);
         toblastoise.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                Intent intent = new Intent(v.getContext(), Main9Activity.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton tocaterpie = (ImageButton) findViewById(R.id.Caterpie010);
         tocaterpie.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                Intent intent = new Intent(v.getContext(), Main10Activity.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton tometapod = (ImageButton) findViewById(R.id.Metapod011);
         tometapod.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                Intent intent = new Intent(v.getContext(), Main11Activity.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton tobutterfree = (ImageButton) findViewById(R.id.Butterfree012);
         tobutterfree.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Main1Activity.class);
+                Intent intent = new Intent(v.getContext(), Main12Activity.class);
                 startActivityForResult(intent, 0);
             }
         });

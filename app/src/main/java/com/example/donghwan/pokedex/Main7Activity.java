@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import android.content.Intent;
+import android.widget.ImageButton;
+import android.widget.TextView;
+import java.text.NumberFormat;
 
 public class Main7Activity extends AppCompatActivity {
 
@@ -15,6 +18,13 @@ public class Main7Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main7);
+        Button tomain07 = (Button) findViewById(R.id.squirtlebackbt);
+        tomain07.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), MainActivity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
     }
 
     String squirtlenumber = "0007";

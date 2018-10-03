@@ -12,25 +12,31 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
+            android:text="포켓몬 도감"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="포켓몬 도감"
+            android:textSize="35dp"
             android:layout_marginBottom="5dp"/>
 
-
         <TextView
+            android:text="신동환"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="신동환"
-            android:layout_marginBottom="20dp"/>
+            android:textSize="20dp"
+            android:layout_marginBottom="30dp"/>
 
+        <TextView
+            android:text="이상해씨"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Bulbasaur001"
@@ -41,6 +47,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/bulbasaur" />
 
+        <TextView
+            android:text="이상해풀"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Ivysaur002"
@@ -51,6 +63,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/ivysaur" />
 
+        <TextView
+            android:text="이상해꽃"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Venusaur003"
@@ -61,6 +79,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/venusaur" />
 
+        <TextView
+            android:text="파이리"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Charmander004"
@@ -71,6 +95,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/charmander" />
 
+        <TextView
+            android:text="리자드"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Charmeleon005"
@@ -81,6 +111,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/charmeleon" />
 
+        <TextView
+            android:text="리자몽"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Charizard006"
@@ -91,6 +127,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/charizard" />
 
+        <TextView
+            android:text="꼬부기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Squirtle007"
@@ -101,6 +143,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/squirtle" />
 
+        <TextView
+            android:text="어니부기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Wartortle008"
@@ -111,6 +159,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/wartortle" />
 
+        <TextView
+            android:text="거북왕"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Blastoise009"
@@ -121,6 +175,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/blastoise" />
 
+        <TextView
+            android:text="캐터피"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Caterpie010"
@@ -131,6 +191,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/caterpie" />
 
+        <TextView
+            android:text="단데기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Metapod011"
@@ -141,6 +207,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/metapod" />
 
+        <TextView
+            android:text="버터풀"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Butterfree012"
@@ -151,6 +223,12 @@
             android:background="@android:color/transparent"
             android:src="@drawable/butterfree" />
 
+        <TextView
+            android:text="피카츄"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="1dp"/>
 
         <ImageButton
             android:id="@+id/Pikachu025"
@@ -164,6 +242,5 @@
     </LinearLayout>
 
     </ScrollView>
-
 
 </android.support.constraint.ConstraintLayout>

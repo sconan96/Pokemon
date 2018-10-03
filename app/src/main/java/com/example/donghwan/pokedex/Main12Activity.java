@@ -8,6 +8,10 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import android.content.Intent;
+import android.widget.ImageButton;
+import android.widget.TextView;
+import java.text.NumberFormat;
+
 
 public class Main12Activity extends AppCompatActivity {
 
@@ -15,6 +19,13 @@ public class Main12Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main12);
+        Button tomain12 = (Button) findViewById(R.id.butterfreebackbt);
+        tomain12.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), MainActivity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
     }
 
     String butterfreenumber = "0012";

@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import android.content.Intent;
+import android.widget.ImageButton;
+import android.widget.TextView;
+import java.text.NumberFormat;
 
 public class Main10Activity extends AppCompatActivity {
 
@@ -15,7 +18,15 @@ public class Main10Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main10);
+        Button tomain10 = (Button) findViewById(R.id.caterpiebackbt);
+        tomain10.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), MainActivity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
     }
+
     String caterpienumber = "0010";
     String caterpietype = "벌레타입";
     String caterpiecategory = "애벌레포켓몬";

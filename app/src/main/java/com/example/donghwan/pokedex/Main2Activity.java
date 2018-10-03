@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import android.content.Intent;
+import android.widget.ImageButton;
+import android.widget.TextView;
+import java.text.NumberFormat;
 
 
 public class Main2Activity extends AppCompatActivity {
@@ -16,6 +19,13 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        Button tomain02 = (Button) findViewById(R.id.ivysaurbackbt);
+        tomain02.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), MainActivity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
     }
 
     String ivysaurnumber = "0002";

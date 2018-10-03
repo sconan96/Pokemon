@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import android.content.Intent;
+import android.widget.ImageButton;
+import android.widget.TextView;
+import java.text.NumberFormat;
 
 public class Main11Activity extends AppCompatActivity {
 
@@ -15,7 +18,15 @@ public class Main11Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main11);
+        Button tomain11 = (Button) findViewById(R.id.metapodbackbt);
+        tomain11.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), MainActivity.class);
+                startActivityForResult(intent, 0);
+            }
+        });
     }
+
     String metapodnumber = "0011";
     String metapodtype = "벌레";
     String metapodcategory = "번데기포켓몬";
