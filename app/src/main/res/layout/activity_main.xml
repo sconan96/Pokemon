@@ -39,7 +39,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Bulbasaur" />
+            android:src="@drawable/bulbasaur" />
 
 
         <ImageButton
@@ -49,7 +49,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Ivysaur" />
+            android:src="@drawable/ivysaur" />
 
 
         <ImageButton
@@ -59,7 +59,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Venusaur" />
+            android:src="@drawable/venusaur" />
 
 
         <ImageButton
@@ -69,7 +69,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Charmander" />
+            android:src="@drawable/charmander" />
 
 
         <ImageButton
@@ -79,7 +79,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Charmeleon" />
+            android:src="@drawable/charmeleon" />
 
 
         <ImageButton
@@ -89,7 +89,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Charizard" />
+            android:src="@drawable/charizard" />
 
 
         <ImageButton
@@ -99,7 +99,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Squirtle" />
+            android:src="@drawable/squirtle" />
 
 
         <ImageButton
@@ -109,7 +109,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Wartortle" />
+            android:src="@drawable/wartortle" />
 
 
         <ImageButton
@@ -119,7 +119,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Blastoise" />
+            android:src="@drawable/blastoise" />
 
 
         <ImageButton
@@ -129,7 +129,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Caterpie" />
+            android:src="@drawable/caterpie" />
 
 
         <ImageButton
@@ -139,7 +139,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Metapod" />
+            android:src="@drawable/metapod" />
 
 
         <ImageButton
@@ -149,7 +149,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Butterfree" />
+            android:src="@drawable/butterfree" />
 
 
         <ImageButton
@@ -159,7 +159,7 @@
             android:layout_marginBottom="40dp"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"
-            android:src="@drawable/Pikachu" />
+            android:src="@drawable/pikachu" />
 
     </LinearLayout>
 
